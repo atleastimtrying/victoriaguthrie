@@ -80,7 +80,9 @@ h1 img{
 
 h2{
   font-size:24px;
-  margin-bottom:16px;
+  margin-bottom:8px;
+  text-transform:uppercase;
+  letter-spacing:-1px;
 }
 
 p{
