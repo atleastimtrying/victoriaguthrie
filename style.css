@@ -10,7 +10,7 @@ body{
   background:#333;
 }
 
-div{
+div#background{
   font-family: 'Cinzel', serif;
   position:fixed;
   top:0;
@@ -29,7 +29,7 @@ div{
   cursor:default;
 }
 
-div p{
+div#background p{
   font-size:48px;
   line-height:48px;
   word-spacing:1px;
@@ -37,7 +37,7 @@ div p{
   text-transform:uppercase;
   font-weight:bold;
 }
-div span{
+div#background span{
   color:#333;
 }
 article{
@@ -78,8 +78,11 @@ section:nth-child(even){
 }
 
 h1{
-  font-size:36px;
-  padding:20px;
+  font-family: 'Oxygen', sans-serif;
+  font-size:32px;
+  font-weight:bold;
+  margin-bottom:10px;
+  text-shadow:1px 1px 3px #666;
 }
 
 h1 img{
@@ -93,39 +96,57 @@ h2{
   letter-spacing:-1px;
 }
 
+h2.subtitle{
+  font-family: 'Oxygen', sans-serif;
+  font-weight:bold;
+  text-transform:none;
+  text-shadow:1px 1px 3px #666;
+}
+
+h3{
+  font-family: 'Oxygen', sans-serif;
+  font-weight:lighter;
+  margin-bottom:18px;
+  text-shadow:1px 1px 3px #666;
+}
+
+ul{
+  padding-left:20px;
+
+}
+li{
+  margin-bottom:8px;
+}
+
+ul.feature{
+  margin-top:20px;
+  padding-left:0;
+  text-align:center;
+}
+
+ul.feature li{
+  margin:0;
+  list-style:none;
+  display:inline-block;
+  margin: 0 4px;
+}
+
+ul.feature img{
+  
+}
+
 p{
   font-size:16px;
   line-height:20px;
   margin-bottom:8px;
-}
-p.contact{
-  text-align:center;
-  margin-bottom: 0;
-}
 
-a{
-  display:block;
-  border-radius:5px;
-  background:#ccc;
-  color:black;
-  padding:8px 0;
-  width:40%;
-  text-decoration: none;
-  font-weight: bold;
-  margin: 10px;
-  display: inline-block;
-  text-align: center;
-  border: 1px solid #AAA;
-  box-shadow: 1px 1px 3px #AAA;
-  transition: background-color 0.5s;
-  -moz-transition: background-color 0.5s;
-  -webkit-transition: background-color 0.5s;
-  -o-transition: background-color 0.5s;
-}
-a:hover{
-  background:#A6CCE2;
-}
 
+}
+.float-right{
+  float:right;
+  margin-left:8px;
+  margin-bottom:8px;
+}
 @media all and (max-width: 520px){
   div{
     display:none;
