@@ -6,7 +6,9 @@
     <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet'>
     <link href='http://fonts.googleapis.com/css?family=Gilda+Display|Cinzel' rel='stylesheet'>
     <link href='http://fonts.googleapis.com/css?family=Oxygen:300,400,700' rel='stylesheet' type='text/css'>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" >    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" >
+    <meta name="description" content="Freelance copywriter, editor and proofreader for web and print based in Suffolk. Always on the look-out for interesting new projects.">
+    <meta name="author" content="Vick Guthrie">
     <meta name="apple-touch-fullscreen" content="yes" >
     <meta name="apple-mobile-web-app-capable" content="yes" > 
     <meta name="apple-mobile-web-app-status-bar-style" content="black" > 
@@ -68,19 +70,34 @@
 
     </article>
     <script src='background.js'></script>
-    <script type="text/javascript">var z7x3p3;(function(d, t) {
-var s = d.createElement(t), options = {
-'userName':'victoriaguthrie', 
-'formHash':'z7x3p3', 
-'autoResize':true,
-'height':'437',
-'async':true,
-'header':'show'};
-s.src = ('https:' == d.location.protocol ? 'https://' : 'http://') + 'wufoo.com/scripts/embed/form.js';
-s.onload = s.onreadystatechange = function() {
-var rs = this.readyState; if (rs) if (rs != 'complete') if (rs != 'loaded') return;
-try { z7x3p3 = new WufooForm();z7x3p3.initialize(options);z7x3p3.display(); } catch (e) {}};
-var scr = d.getElementsByTagName(t)[0], par = scr.parentNode; par.insertBefore(s, scr);
-})(document, 'script');</script>
+    <script type="text/javascript">
+      var z7x3p3;
+      (function(d, t) {
+        var s = d.createElement(t), 
+        options = {
+          'userName':'victoriaguthrie', 
+          'formHash':'z7x3p3', 
+          'autoResize':true,
+          'height':'437',
+          'async':true,
+          'header':'show'
+        };
+        s.src = ('https:' == d.location.protocol ? 'https://' : 'http://') + 'wufoo.com/scripts/embed/form.js';
+        s.onload = s.onreadystatechange = function() {
+          var rs = this.readyState;
+          if (rs) if (rs != 'complete') if (rs != 'loaded') return;
+          try { 
+            z7x3p3 = new WufooForm();
+            z7x3p3.initialize(options);
+            z7x3p3.display(); 
+          } catch (e) {
+
+          }
+        };
+        var scr = d.getElementsByTagName(t)[0],
+        par = scr.parentNode;
+        par.insertBefore(s, scr);
+      })(document, 'script');
+    </script>
   </body>
 </html>
