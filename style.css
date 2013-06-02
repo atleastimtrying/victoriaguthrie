@@ -46,7 +46,8 @@ article{
   max-width:520px;
   margin:20px auto;
   background:white;
-  border-radius:5px;
+  border-radius:3px;
+  overflow:hidden;
 }
 
 blockquote{
