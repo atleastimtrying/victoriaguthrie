@@ -34,8 +34,8 @@
       <div class="advantages-wrapper">
         <div class="advantages">
           <p>Want fresh, original, compelling content?</p>
-          <form name="form2" autocomplete="off" enctype="multipart/form-data" method="post" novalidate action="https://victoriaguthrie.wufoo.com/forms/m7x3z9/#public">
-            <input name="Field2" type="email" spellcheck="false" value="" maxlength="255" tabindex="1" placeholder="Yes! Please email me more info..."/> 
+          <form name="form2" autocomplete="off" enctype="multipart/form-data" method="post"  data-validate="parsley" action="https://victoriaguthrie.wufoo.com/forms/m7x3z9/#public">
+            <input name="Field2" type="email"  data-required="true" spellcheck="false" value="" maxlength="255" tabindex="1" placeholder="Yes! Please email me more info..."/> 
             <button name="saveForm" type="submit">email me</button>
             <input type="hidden" name="idstamp" value="xmm8b+c0FRWDuL48UOPsF5HwXbPNED2wl4mjXuKnZzQ=" />
           </form>       
@@ -77,12 +77,12 @@
         <div class="quote">     
 
           <h3>Get a FREE Quote</h3>
-<form name="form3" autocomplete="off" enctype="multipart/form-data" method="post" novalidate action="https://victoriaguthrie.wufoo.com/forms/q7x2w5/#public">
-<input name="Field1" type="text" value="" tabindex="1" placeholder="Hello! My name is..."/>
+<form name="form3" autocomplete="off" data-validate="parsley" enctype="multipart/form-data" method="post" novalidate action="https://victoriaguthrie.wufoo.com/forms/q7x2w5/#public">
+<input name="Field1" type="text" value="" data-required="true" tabindex="1" placeholder="Hello! My name is..."/>
 <label for="Field3">
 I'm interested in getting a quote for
 </label>
-<select name="Field3" tabindex="2" > 
+<select name="Field3" tabindex="2" data-required="true" > 
 <option value="Copywriting" selected="selected">
 Copywriting
 </option>
@@ -102,9 +102,9 @@ Proofreading
 <label for="Field4">
 
 </label>
-<textarea name="Field4" spellcheck="true" tabindex="3" placeholder="Here's some info about my project..."></textarea>
+<textarea name="Field4" spellcheck="true"  data-required="true" tabindex="3" placeholder="Here's some info about my project..."></textarea>
 <label for="Field5"></label>
-<input name="Field5" type="email" spellcheck="false" value="Here's my email address..." maxlength="255" tabindex="4" />
+<input name="Field5" type="email"  data-required="true" spellcheck="false" value="Here's my email address..." maxlength="255" tabindex="4" />
 <input name="saveForm" type="submit" value="GO!"/>
 <input type="hidden" name="idstamp" value="zuwRmdlJ0Ff5HuFdl752dQTwVvvZyJjP6sQMrguJ5S8=" />
 </form></div>
@@ -126,5 +126,7 @@ Proofreading
   })();
 
 </script>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+<script src="parsley.js"></script>
   </body>
 </html>
