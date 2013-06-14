@@ -20,6 +20,16 @@ a.logo{
   margin-bottom:-150px;
 }
 
+a.phone{
+  width:300px;
+  display:block;
+  margin-left:1000px;
+  margin-top:-50px;
+}
+a.phone img{
+  width:100%;
+}
+
 div.services{
 font-family: 'Open Sans', sans serif;
 font-size:18px;
@@ -312,6 +322,45 @@ li.type{
   list-style:none;
   color:red;
   font-style:italic;
+}
+
+div.testimonial{
+  padding:10px;
+  max-width:1365px;
+  margin:0 auto;
+}
+
+div.testimonial blockquote{
+  font-family: 'Open Sans', sans serif;
+  background-color:lightgrey;
+  font-size:19px;
+  max-width:500px;
+  padding:20px 10px 10px 150px;
+  margin:10px;
+  position:relative;
+  text-align:left;
+  min-height:220px;
+  vertical-align:top;
+  quotes:"\201C""\201D""\2018""\2019";
+  display:inline-block;
+}
+
+div.testimonial blockquote:before{
+  font-family: 'Coustard', serif;
+  color:grey;
+  content: open-quote;
+  position: absolute;
+  top: -60px;
+  left: -2px;
+  font-size: 300px;
+}
+div.testimonial blockquote:after{
+  content:close-quote;
+  font-size:0;
+}
+div.testimonial blockquote strong{
+  display:block;
+  margin-top:8px;
 }
 
 footer p{
