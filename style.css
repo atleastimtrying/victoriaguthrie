@@ -334,13 +334,13 @@ div.testimonial{
 div.testimonial blockquote{
   font-family: 'Open Sans', sans serif;
   background-color:lightgrey;
-  font-size:19px;
+  font-size:15px;
   max-width:500px;
   padding:20px 10px 10px 150px;
   margin:10px;
   position:relative;
   text-align:left;
-  min-height:220px;
+  min-height:135px;
   vertical-align:top;
   quotes:"\201C""\201D""\2018""\2019";
   display:inline-block;
