@@ -20,6 +20,38 @@ a.logo{
   margin-bottom:-150px;
 }
 
+a.readmore{
+  font-family: 'Coustard', serif;
+  font-size:15px;
+  color:black;
+  text-decoration:none;
+  padding:5px;
+  margin-top:22px;
+  border:1px solid black;
+  border-radius:4px;
+  background-color:rgb(237, 237, 237);
+  display:inline-block;
+}
+
+a.readmore.larger{
+  font-size:22px;
+  background-color:rgb(173,217,201);
+  padding:10px;
+  margin-top:74px;
+  display:block;
+  text-align:center;
+}
+a.phone{
+  width:300px;
+  display:block;
+  margin: 0 auto 0 auto;
+}
+a.phone img{
+  width:100%;
+  margin-bottom:0;
+  margin-right:-10%;
+}
+
 div.services{
 font-family: 'Open Sans', sans serif;
 font-size:18px;
@@ -55,6 +87,12 @@ h3{
 p{
   font-family: 'Open Sans', sans serif;
   text-align:justify;
+  margin-bottom:10px;
+}
+
+p.right{
+  text-align:right;
+  margin-top:-45px;
 }
 
 img{
@@ -109,12 +147,16 @@ form textarea{
 }
 
 form input[type=submit]{
-  background:#666;
-  color:white;
+  font-family: 'Coustard', serif;
+  font-size:22px;
+  font-weight:300;
+  background-color:rgb(173,217,201);
+  color:black;
   transition: background 0.5s ease-out;
   margin-bottom:0;
   max-width:300px;
-  border-radius:15px;
+  border-radius:4px;
+  border:solid 1px;
 }
 
 form input[type=submit]:hover{
@@ -170,6 +212,7 @@ div.teasers{
   margin: 0 auto;
   max-width:1450px;
 }
+
 div.teasers div{
   display:inline-block;
   width:300px;
@@ -193,24 +236,14 @@ div.teasers div h3{
   font-family: 'Coustard', serif;
   text-shadow:0px 1px 2px rgba(100, 100, 100, 0.7);
 }
+
 div.teasers div p{
   font-size:16px;
+  font-weight:300;
 }
 
-div.teasers div a{
-  font-family: 'Coustard', serif;
-  font-size:15px;
-  color:black;
-  text-decoration:none;
-  padding:5px;
-  border:1px solid black;
-  border-radius:2px;
-  background-color:rgb(237, 237, 237);
-  display:inline-block;
-  position:absolute;
-  bottom:10px;
-  right:10px;
-  display:none;
+div.teasers div p:last-child{
+  margin-bottom:0;
 }
 
 div.teasers div a.imglink{
@@ -224,6 +257,12 @@ div.teasers div a.imglink{
 
 div.teasers div img{
   max-width:300px;
+}
+
+div.teasers h4.blogteaser{
+  font-family: 'Open Sans', sans-serif;
+  font-size:20px;
+  text-align:left;
 }
 
 div.advantages-wrapper{ 
@@ -251,15 +290,15 @@ div.advantages{
 div.advantages li{
   
 }
+
 div.advantages p{
-font-family: 'Coustard', serif;
-font-size:75px;
-font-color:rgb(24,49,82); 
-line-height:80px;
-text-align:left;
-text-shadow:0px 2px 5px grey;
-padding-top:30px;
-padding-left:;
+  font-family: 'Coustard', serif;
+  font-size:75px;
+  font-color:rgb(24,49,82); 
+  line-height:80px;
+  text-align:left;
+  text-shadow:0px 2px 5px grey;
+  padding-top:30px;
 }
 
 div.advantages form{
@@ -268,6 +307,7 @@ div.advantages form{
 }
 
 div.advantages input{
+  font-family: 'Open Sans' sans-serif;
   font-size:16px;
   margin:20px 4px;
   width:264px;
@@ -277,13 +317,15 @@ div.advantages input{
 }
 
 div.advantages button{
-  font-size:16px;
-  line-height:16px;
+  font-family: 'Open Sans' sans-serif;
+  font-size:22px;
+  font-weight:400;
+  line-height:20px;
   color:black;
   text-decoration:bold;
   padding:5px 15px;
-  border:3px solid black;
-  border-radius:14px;
+  border:1px solid black;
+  border-radius:4px;
   background-color:rgb(173,217,201);
   display:inline-block;
   max-width:200px;
@@ -312,6 +354,148 @@ li.type{
   font-style:italic;
 }
 
+.blog{
+  max-width:800px;
+  margin:0 auto;
+}
+
+.blog section{
+  position:relative;
+  margin-bottom:40px;
+}
+
+.blog section h3{
+  font-family: 'Coustard', serif;
+  font-size:40px;
+  line-height:60px;
+  position:absolute;
+  left:0;
+  top:50px;
+  background:rgba(255, 255, 255, 0.40);
+}
+.blog section img{
+  margin-bottom:10px;
+  width:100%;
+}
+
+.blog section .hidden{
+  display:none;
+}
+
+.blog section button{
+  font-size:16px;
+  padding:5px;
+  margin-left:auto;
+
+}
+.blog section p{
+  font-family: 'Open Sans', sans-serif;
+  font-size:17px;
+  font-weight:300;
+  padding:20px;
+}
+
+div.blogpost{
+  max-width:800px;
+  margin:0 auto;
+  padding: 0 20px;
+}
+
+div.blogpost h1{
+  font-family: 'Coustard', serif;
+  font-size:40px;
+  line-height:60px;
+}
+
+div.blogpost h4{
+  font-family: 'Open Sans', sans-serif;
+  font-size:22px;
+  font-weight:500;
+  text-align:left;
+  margin-top:20px;
+
+}
+
+div.blogpost p{
+  font-family: 'Open Sans', sans-serif;
+  font-size:17px;
+  font-weight:300;
+  line-height:28px;
+  margin:10px auto;
+  text-align:left;
+}
+
+div.blogpost img{
+  max-width:400px;
+  margin:40px auto;
+}
+
+div.blogpost .caption{
+  font-size:12px;
+  margin:auto;
+  text-align:center;
+  margin-bottom:20px;
+  margin-top:-30px;
+}
+
+div.blogpost .pullquote p{
+  font-family: 'Open Sans', sans-serif;
+  font-size:30px;
+  line-height:30px;
+  margin-bottom:40px;
+  text-align:center;
+}
+
+div.blogpost ul{
+  font-family: 'Open Sans', sans-serif;
+  font-size:17px;
+  font-weight:300;
+  line-height:28px;
+  text-align:left;
+
+  padding:0 20px 20px 20px;
+}
+
+div.testimonial{
+  padding:10px;
+  max-width:1365px;
+  margin:0 auto;
+}
+
+div.testimonial blockquote{
+  font-family: 'Open Sans', sans serif;
+  background-color:lightgrey;
+  font-size:16px;
+  font-weight:300;
+  max-width:500px;
+  padding:20px 10px 10px 150px;
+  margin:10px;
+  position:relative;
+  text-align:left;
+  min-height:135px;
+  vertical-align:top;
+  quotes:"\201C""\201D""\2018""\2019";
+  display:inline-block;
+}
+
+div.testimonial blockquote:before{
+  font-family: 'Coustard', serif;
+  color:grey;
+  content: open-quote;
+  position: absolute;
+  top: -60px;
+  left: -2px;
+  font-size: 300px;
+}
+div.testimonial blockquote:after{
+  content:close-quote;
+  font-size:0;
+}
+div.testimonial blockquote strong{
+  display:block;
+  margin-top:8px;
+}
+
 footer p{
   font-size:14px;
   text-align:center;
@@ -321,6 +505,16 @@ footer p{
 footer a{
   color:black;
 }
+
+@media all and (min-width:1281px){
+  a.phone{
+    margin-top:-60px;
+  }
+  a.phone img{
+    margin-right:-277px;
+  }
+}
+
 @media all and (min-width:801px) and (max-width:1280px){
   img {
     width: 100%;
