@@ -26,6 +26,7 @@ a.readmore{
   color:black;
   text-decoration:none;
   padding:5px;
+  margin-top:22px;
   border:1px solid black;
   border-radius:4px;
   background-color:rgb(237, 237, 237);
@@ -36,6 +37,7 @@ a.readmore.larger{
   font-size:22px;
   background-color:rgb(173,217,201);
   padding:10px;
+  margin-top:74px;
   display:block;
   text-align:center;
 }
@@ -147,6 +149,7 @@ form textarea{
 form input[type=submit]{
   font-family: 'Coustard', serif;
   font-size:22px;
+  font-weight:300;
   background-color:rgb(173,217,201);
   color:black;
   transition: background 0.5s ease-out;
@@ -236,6 +239,7 @@ div.teasers div h3{
 
 div.teasers div p{
   font-size:16px;
+  font-weight:300;
 }
 
 div.teasers div p:last-child{
@@ -303,6 +307,7 @@ div.advantages form{
 }
 
 div.advantages input{
+  font-family: 'Open Sans' sans-serif;
   font-size:16px;
   margin:20px 4px;
   width:264px;
@@ -312,7 +317,9 @@ div.advantages input{
 }
 
 div.advantages button{
+  font-family: 'Open Sans' sans-serif;
   font-size:22px;
+  font-weight:400;
   line-height:20px;
   color:black;
   text-decoration:bold;
@@ -383,13 +390,15 @@ li.type{
 }
 .blog section p{
   font-family: 'Open Sans', sans-serif;
-  font-size:16px;
+  font-size:17px;
+  font-weight:300;
   padding:20px;
 }
 
 div.blogpost{
   max-width:800px;
   margin:0 auto;
+  padding: 0 20px;
 }
 
 div.blogpost h1{
@@ -400,21 +409,25 @@ div.blogpost h1{
 
 div.blogpost h4{
   font-family: 'Open Sans', sans-serif;
-  font-size:16px;
+  font-size:22px;
+  font-weight:500;
   text-align:left;
+  margin-top:20px;
 
 }
 
 div.blogpost p{
   font-family: 'Open Sans', sans-serif;
-  font-size:16px;
-  margin:20px auto;
+  font-size:17px;
+  font-weight:300;
+  line-height:28px;
+  margin:10px auto;
   text-align:left;
 }
 
 div.blogpost img{
   max-width:400px;
-  margin:40px;
+  margin:40px auto;
 }
 
 div.blogpost .caption{
@@ -435,7 +448,11 @@ div.blogpost .pullquote p{
 
 div.blogpost ul{
   font-family: 'Open Sans', sans-serif;
+  font-size:17px;
+  font-weight:300;
+  line-height:28px;
   text-align:left;
+
   padding:0 20px 20px 20px;
 }
 
@@ -448,7 +465,8 @@ div.testimonial{
 div.testimonial blockquote{
   font-family: 'Open Sans', sans serif;
   background-color:lightgrey;
-  font-size:15px;
+  font-size:16px;
+  font-weight:300;
   max-width:500px;
   padding:20px 10px 10px 150px;
   margin:10px;
